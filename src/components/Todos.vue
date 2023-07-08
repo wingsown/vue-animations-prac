@@ -103,15 +103,15 @@ export default {
   }
 
 /* switch transitions */
-.switch-enter-from,
-.switch-leave-to {
-  opacity: 0;
-  transform: translateY(20px)
-}
+  .switch-enter-from,
+  .switch-leave-to {
+    opacity: 0;
+    transform: translateY(20px)
+  }
 
-.switch-enter-active,
-.switch-leave-active  {
-  transition: all 0.5s ease;
-}
+  .switch-enter-active,
+  .switch-leave-active  {
+    transition: all 0.5s ease;
+ }
 
 </style>
